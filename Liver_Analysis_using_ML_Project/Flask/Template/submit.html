@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <style>
+            body{
+                background-image:url("https://w0.peakpx.com/wallpaper/796/905/HD-wallpaper-red-cross-neon-icon-red-background-neon-symbols-red-cross-creative-neon-icons-red-cross-sign-medical-signs-red-cross-icon-medical-icons.jpg");
+                background-color:aqua;
+                background-size:cover;
+            }
+            h1
+        {
+
+                 color:white;
+         }
+            h3.big
+            {
+                line-height: 1.8;
+                color:white;
+            }
+        </style>
+    </head>
+    <body background=bg.jpg>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 bg-light text-right">
+                    <a href="/home"class="btn-primary btn-lg">Home</a>
+			 <a href="/predict"class="btn-primary btn-lg">Predict</a>
+                    </div>
+            </div>
+<center>
+                <h1><strong>Liver Analysis Report</strong></h1>
+                <h3 class="big"><em>{{prediction_text}}</em></h3></center>
+
+
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
